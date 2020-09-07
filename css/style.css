@@ -1,0 +1,86 @@
+body{
+  background-image: url("https://cdn.wallpapersafari.com/8/52/2CYNhX.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.container{
+  width: 1000px;
+  margin: auto;
+}
+.logo{
+  width: 100px;
+}
+.logo-text{
+  font-size: 25px;
+  display: inline-block;
+}
+
+/*Esempio di selettore css con Child Selector*/
+
+h2> span{
+  background-color: orange;
+  border-radius: 60%;
+  padding:5px;
+}
+
+/*Esempio di utilizzo id
+#unread-count{
+  background-color: orange;
+  border-radius: 60%;
+  padding:5px;
+}*/
+
+/*Posso inserire ulteriore specificazione per row (sostituendo a row, email) e rendere parlante il codice, nel modo sottostante.
+.email.read{
+background-color: lightgrey
+}
+.email.unread{
+background-color: white
+}
+Solo se ho entrambe le classi .email e .read e/o unread, posso avere i rispettivi colori di background.
+*/
+
+
+.row{
+  color: black;
+}
+
+.read{
+  background-color: lightgrey;
+}
+
+.unread{
+  background-color: white;
+}
+
+
+.row-left, .row-right{
+  display:inline-block;
+}
+
+.row-left{
+  width: 30%;
+}
+
+.row-right{
+  width: 60%
+}
+
+/*Utilizzo del selettore avanzato :after*/
+.star:after{
+  content: "\2605";
+}
+
+.subject{
+
+}
+.body{
+
+}
+footer{
+  text-align: center;
+}
+#name-footer{
+  font-size: 30px;
+}
