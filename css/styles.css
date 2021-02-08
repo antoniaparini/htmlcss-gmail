@@ -1,0 +1,79 @@
+/* STYLE APP */
+
+body {
+  color:#fff;
+  font-family: 'Noto Serif', serif;
+  background-image: url("../img/motion.jpg");
+  background-position: center;
+  background-repeat: repeat;
+}
+
+#page {
+  width: 65%;
+  margin: 20px auto;
+}
+
+/* HEADER */
+
+header img {
+  width:110px;
+  vertical-align: middle;
+}
+
+header h1 {
+  display: inline-block;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+#button_vai {
+  border-radius: 15%;
+}
+
+/* MAIN */
+
+#enlighted_num {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #ff990f;
+  line-height: 25px;
+  border-radius: 50%;
+  padding:10px;
+}
+
+main h2 {
+  font-weight: normal;
+}
+
+.mail_line{
+  background-color: #d4d2d4;
+  color: #9e9e9e;
+  height:30px;
+  border: 1px #000 solid;
+  padding: 3px;
+  margin:2px;
+  box-sizing: border-box;
+}
+
+#mail_active{
+  background-color: #fff;
+}
+
+main .mail_line strong {
+  color: #000;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+}
+
+footer strong {
+  font-size: 22px;
+}
+
+footer em {
+  font-size: 12px;
+}

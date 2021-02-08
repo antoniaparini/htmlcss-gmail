@@ -1,85 +1,53 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="\css\style.css">
     <meta charset="utf-8">
-    <title></title>
+    <title>Gmail Client</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   </head>
   <body>
-
-  <header>
-    <!--Area Header-->
-    <div class="container">
-      <img class="logo" src="\htmlcss-gmail\img\download-gmail-icon-2.png" alt="gmaillogo">
-      <h1 class="logo-text">GMAIL</h1>
-      <hr>
-
-      <!--Search box-->
-      <nav>
-        <input type="text" placeholder="Search">
-        <button type="button" name="button">VAI</button>
-        <h2>You have <span id="unread-count">30</span> unread</h2>
+    <div id="page">
+      <!-- Header -->
+      <header>
+        <img src="./img/gmail_icon.png" alt="">
+        <h1>Gmail</h1>
         <hr>
-      </nav>
-      <!--Main Content-->
+        <input type="text" placeholder="Search" name="" value="">
+        <input type="button" name="" value="VAI" id="button_vai">
+      </header>
+
+      <!-- Main -->
       <main>
-        <div class="row read">
-          <div class="row-left">
-            <input type="checkbox" name="" value="">
-            <span class="star"></span>
-            <span class="subject">Oggetto della mail</span>
-          </div>
-
-          <div class="row-right">
-            <span class="body">Corpo della mail</span>
-          </div>
-
+        <h2>You have <span id="enlighted_num">30</span> unread</h2>
+        <hr>
+        <div class="mail_line">
+          <input type= "checkbox" name="" value="">
+          <strong>&#9733; Oggetto della email</strong>
+          - testo della email...
         </div>
-        <div class="row unread">
-          <div class="row-left">
-            <input type="checkbox" name="" value="">
-            <span class="star"></span>
-            <span class="subject">Oggetto della mail</span>
-
-          </div>
-
-          <div class="row-right">
-            <span class="body">Corpo della mail</span>
-          </div>
-          <div class="row read">
-            <div class="row-left">
-              <input type="checkbox" name="" value="">
-              <span class="star"></span>
-              <span class="subject">Oggetto della mail</span>
-
-            </div>
-            <div class="row-right">
-              <span class="body">Corpo della mail</span>
-            </div>
-
-          </div>
-          <div class="row unread">
-            <div class="row-left">
-              <input type="checkbox" name="" value="">
-              <span class="star"></span>
-              <span class="subject">Oggetto della mail</span>
-
-            </div>
-            <div class="row-right">
-              <span class="body">Corpo della mail</span>
-            </div>
+        <!-- Qui inserisco un id per modificare la classe della riga attiva -->
+        <div id="mail_active" class="mail_line">
+          <input type= "checkbox" name="" value="">
+          <strong>&#9733; Oggetto della email</strong>
+          - testo della email...
         </div>
-          <hr>
+        <div class="mail_line">
+          <input type= "checkbox" name="" value="">
+          <strong>&#9733; Oggetto della email</strong>
+          - testo della email...
+        </div>
+        <div class="mail_line">
+          <input type= "checkbox" name="" value="">
+          <strong>&#9733; Oggetto della email</strong>
+          - testo della email...
+        </div>
+        <hr>
       </main>
-      <!--Footer-->
-
-      <footer><span id="name-footer">Gmail</span> powered by Boolean</footer>
-
+      <!-- Footer -->
+      <footer>
+        <strong>GMail</strong> <em>powered by Me</em>
+      </footer>
     </div>
-    </header>
-
-
-
-
   </body>
 </html>
